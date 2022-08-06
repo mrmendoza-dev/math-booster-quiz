@@ -1,0 +1,157 @@
+/* Complete the CSS styling according to the provided design */
+
+
+html {
+    background-color: black;
+    margin: 0;
+}
+
+
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+btn {
+    cursor: pointer;
+}
+
+body {
+    font-family: Courier, Arial, sans-serif;
+    font-size: 1.125rem;
+
+
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        margin: 0;
+
+
+}
+
+
+.main-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.25)), url("images/giphy.gif");
+    background-size: cover;
+
+
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid #0ff;
+
+
+}
+
+
+.game-title {
+    color: #fff;
+    text-shadow: 0 10px 60px #0ff;
+    font-family: hacked;
+}
+
+
+@font-face {
+  src: url("fonts/hacked.ttf");
+  font-family: hacked;
+}
+
+
+
+
+
+
+
+
+.game-menu {
+    width: 40%;
+    /* height: 800px; */
+    background: rgb(0, 0, 0);
+    border: 0.5px solid #0ff;
+    box-shadow: 0 0 40px #0ff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        margin: 0 auto;
+        line-height: 1;
+        padding: 2em 0
+
+}
+
+
+
+.game-btn:hover {
+    color: #000;
+    background: #0ff;
+    box-shadow: 0 10px 20px #0ff;
+
+}
+
+.reset {
+    color: #f00;
+    border: 1px solid #f00;
+
+}
+.reset:hover {
+    color: #000;
+    background: #f00;
+    box-shadow: 0 10px 20px #f00;
+
+}
+
+
+
+#questionPrompt {
+    font-style: italic;
+    font-size: 1.8rem;
+
+}
+
+
+#startBlock {
+    font-size: 1.6rem;
+    display: visible;
+
+
+}
+
+#questionBlock {
+    font-size: 1.6rem;
+    display: none;
+}
+
+
+#answers {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn {
+        display: block;
+
+    color: #fff;
+    width: 150px;
+    background: #000;
+    padding: 0.3em ;
+    font-size: 1.4rem;
+
+    font-weight: bold;
+    border: 1px solid #0ff;
+    margin: 0.2em 0;
+    cursor: pointer;
+}
+.answer-btn:hover,
+.answer-btn:focus {
+    color: #000;
+    background: #0ff;
+
+}
