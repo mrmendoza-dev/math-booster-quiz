@@ -6,3 +6,4 @@ Multiple choice math question quizzer to speed up calculations
   - Currently only for percentages
 - Set number of questions
 - Difficulty slider
+- Add timer, show average response time
