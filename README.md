@@ -1,4 +1,4 @@
-# math-booster-quiz
+# Math Booster Quiz
 Multiple choice math question quizzer, Built to test out quizzing functionality.
 
 ## Features (TODO)
