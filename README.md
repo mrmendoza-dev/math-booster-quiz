@@ -1,5 +1,5 @@
 # Math Booster Quiz
-Multiple choice math question quizzer, Built to test out quizzing functionality.
+Multiple choice math question quizzer to speed up calculations
 
 ## Features (TODO)
 - Add new modes
